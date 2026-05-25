@@ -43,7 +43,7 @@ const Homecontent = () => {
 
         <h2
           className="
-          text-[2.2rem] sm:text-[3rem] lg:text-[4rem]
+          text-[1.6rem] sm:text-[1.5rem] lg:text-[2rem]
           font-bold
           leading-tight
           text-[#FFCF99]
@@ -107,7 +107,7 @@ const Homecontent = () => {
             </button>
           </a>
 
-          <a href="#contact">
+          <a href="#contactme">
             <button
               className="
               w-full sm:w-auto

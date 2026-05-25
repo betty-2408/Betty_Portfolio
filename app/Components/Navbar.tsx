@@ -74,7 +74,7 @@ const Navbar = () => {
             ${dancingScript.className}
           `}
         >
-          Betty
+          Portfolio
         </h1>
 
         {/* DESKTOP NAV */}

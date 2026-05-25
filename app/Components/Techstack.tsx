@@ -18,14 +18,14 @@ const Techstack = () => {
             My Tech Stack
         </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 g">
             {techStack.map((stack) => {
               const Icon = stack.icon
 
               return (
                 <div
                   key={stack.id}
-                  className="flex flex-col items-center justify-center h-[180px] rounded-2xl bg-white shadow-[0_8px_20px_rgba(0,0,0,0.12)] hover:scale-105 transition duration-300"
+                  className="flex flex-col items-center justify-center h-[150px] min-w-[120px] max-w-[140px] rounded-2xl bg-white shadow-[0_8px_20px_rgba(0,0,0,0.12)] hover:scale-105 transition duration-300"
                 >
                   <Icon
                     className="text-6xl mb-4"

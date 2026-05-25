@@ -131,7 +131,7 @@ const Contact = () => {
         className="
         grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4
         gap-6
-        w-full max-w-4xl
+        w-full max-w-2xl
         "
       >
         {contactLinks.map((item, index) => {
