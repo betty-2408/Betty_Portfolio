@@ -51,7 +51,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <h1 className={`text-3xl font-bold text-[#FAA23E] ${dancingScript.className} `}>
-          Betty
+          Portfolio
         </h1>
 
         {/* Navigation */}
